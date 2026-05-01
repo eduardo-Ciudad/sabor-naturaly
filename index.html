@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naturaly — Produtos naturais, especiarias e alimentos saudáveis em São José do Rio Preto, SP. Qualidade garantida com entrega local.">
+    <title>Naturaly | Produtos Naturais em São José do Rio Preto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="header" id="header">
+    <div class="container">
+        <nav class="nav">
+            <a href="#inicio" class="logo">
+                <svg class="logo__icon" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                    <path d="M17 4C17 4 7 11 7 20C7 25.523 11.477 30 17 30C22.523 30 27 25.523 27 20C27 11 17 4 17 4Z" fill="#2E7D52" fill-opacity="0.18" stroke="#2E7D52" stroke-width="1.6" stroke-linejoin="round"/>
+                    <line x1="17" y1="29" x2="17" y2="15" stroke="#2E7D52" stroke-width="1.6" stroke-linecap="round"/>
+                    <path d="M17 23Q13 20 12 15" stroke="#2E7D52" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.65"/>
+                    <path d="M17 18Q21 16 22 11" stroke="#2E7D52" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.65"/>
+                </svg>
+                <span class="logo__text">Naturaly</span>
+            </a>
+
+            <ul class="nav__menu" id="navMenu">
+                <li><a href="#inicio" class="nav__link">Início</a></li>
+                <li><a href="#produtos" class="nav__link">Produtos</a></li>
+                <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+                <li><a href="#contato" class="nav__link">Contato</a></li>
+            </ul>
+
+            <div class="nav__actions">
+                <a href="https://wa.me/5517991234567?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20os%20produtos%20Naturaly."
+                   class="btn btn--primary btn--sm" target="_blank" rel="noopener noreferrer">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a>
+                <button class="nav__burger" id="navBurger" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section id="inicio" class="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__container">
+        <div class="hero__content">
+            <div class="hero__badge reveal">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="#2E7D52"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                Produtos naturais selecionados — SJRP
+            </div>
+            <h1 class="hero__title reveal">
+                Sabor natural e<br>
+                <em>saúde verdadeira</em><br>
+                em cada produto
+            </h1>
+            <p class="hero__subtitle reveal">
+                Especiarias frescas, grãos nutritivos e alimentos naturais para transformar sua alimentação. Entregamos em São José do Rio Preto.
+            </p>
+            <div class="hero__ctas reveal">
+                <a href="https://wa.me/5517991234567?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20os%20produtos%20Naturaly."
+                   class="btn btn--primary btn--xl" target="_blank" rel="noopener noreferrer">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Fale conosco no WhatsApp
+                </a>
+                <a href="#produtos" class="btn btn--ghost btn--xl scroll-link">
+                    Ver produtos
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+                </a>
+            </div>
+            <div class="hero__trust reveal">
+                <div class="trust-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    Qualidade garantida
+                </div>
+                <div class="trust-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    Entrega local
+                </div>
+                <div class="trust-item">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="20 6 9 17 4 12"/></svg>
+                    100% Natural
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__visual">
+            <div class="hero__card reveal reveal--right">
+                <div class="hero__card-img">
+                    <img src="img/ChatGPT Image 1 de mai. de 2026, 15_10_31.png"
+                         alt="Alimentação natural e saudável" loading="eager"
+                         onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5c3a,#2e8b57)'">
+                </div>
+                <div class="hero__card-badge">
+                    <span class="badge-num">500<sup>+</sup></span>
+                    <span class="badge-lbl">Clientes satisfeitos</span>
+                </div>
+                <div class="hero__card-tag">
+                    <svg width="11" height="11" viewBox="0 0 24 24" fill="#2E7D52"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                    100% Natural
+                </div>
+            </div>
+            <div class="hero__mini-stats reveal">
+                <div class="mini-stat">
+                    <span class="mini-stat__n" data-count="200">0</span><span class="mini-stat__plus">+</span>
+                    <span class="mini-stat__l">Produtos</span>
+                </div>
+                <div class="mini-stat__divider"></div>
+                <div class="mini-stat">
+                    <span class="mini-stat__n" data-count="5">0</span><span class="mini-stat__plus">+</span>
+                    <span class="mini-stat__l">Anos de experiência</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero__scroll-cue" aria-hidden="true"><div class="scroll-dot"></div></div>
+</section>
+
+<!-- ===================== STATS BAR ===================== -->
+<section class="stats-bar">
+    <div class="container">
+        <div class="stats-bar__grid">
+            <div class="stat-item reveal">
+                <div class="stat-item__icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div class="stat-item__body">
+                    <div class="stat-item__num"><span class="counter" data-count="500">0</span>+</div>
+                    <div class="stat-item__lbl">Clientes satisfeitos</div>
+                </div>
+            </div>
+            <div class="stat-item reveal" style="--delay:80ms">
+                <div class="stat-item__icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                </div>
+                <div class="stat-item__body">
+                    <div class="stat-item__num"><span class="counter" data-count="200">0</span>+</div>
+                    <div class="stat-item__lbl">Produtos disponíveis</div>
+                </div>
+            </div>
+            <div class="stat-item reveal" style="--delay:160ms">
+                <div class="stat-item__icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                </div>
+                <div class="stat-item__body">
+                    <div class="stat-item__num"><span class="counter" data-count="5">0</span> anos</div>
+                    <div class="stat-item__lbl">No mercado</div>
+                </div>
+            </div>
+            <div class="stat-item reveal" style="--delay:240ms">
+                <div class="stat-item__icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                </div>
+                <div class="stat-item__body">
+                    <div class="stat-item__num">Entrega</div>
+                    <div class="stat-item__lbl">São José do Rio Preto</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== PRODUCTS ===================== -->
+<section id="produtos" class="products">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="tag">Nossos Produtos</span>
+            <h2 class="section-title">Encontre o que você precisa<br>para uma vida mais saudável</h2>
+            <p class="section-sub">Cada produto é criteriosamente escolhido para garantir qualidade, frescor e o máximo de benefícios para você e sua família.</p>
+        </div>
+
+        <div class="products__grid">
+            <div class="product-card reveal" style="--delay:0ms">
+                <div class="product-card__visual product-card__visual--spices">
+                    <div class="product-card__pattern"></div>
+                    <div class="product-card__emoji">🌶️</div>
+                </div>
+                <div class="product-card__body">
+                    <h3>Especiarias</h3>
+                    <p>Canela, cúrcuma, pimenta-do-reino, gengibre, cominho e muito mais. Sabores que transformam qualquer prato.</p>
+                    <a href="https://wa.me/5517991234567?text=Olá!%20Tenho%20interesse%20nas%20especiarias%20da%20Naturaly."
+                       class="product-card__link" target="_blank" rel="noopener noreferrer">
+                        Ver especiarias
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" style="--delay:100ms">
+                <div class="product-card__visual product-card__visual--natural">
+                    <div class="product-card__pattern"></div>
+                    <div class="product-card__emoji">🌿</div>
+                </div>
+                <div class="product-card__body">
+                    <h3>Produtos Naturais</h3>
+                    <p>Chás, ervas medicinais, extratos e suplementos naturais para o seu bem-estar e equilíbrio diários.</p>
+                    <a href="https://wa.me/5517991234567?text=Olá!%20Tenho%20interesse%20nos%20produtos%20naturais%20da%20Naturaly."
+                       class="product-card__link" target="_blank" rel="noopener noreferrer">
+                        Ver produtos
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" style="--delay:200ms">
+                <div class="product-card__visual product-card__visual--grains">
+                    <div class="product-card__pattern"></div>
+                    <div class="product-card__emoji">🌾</div>
+                </div>
+                <div class="product-card__body">
+                    <h3>Grãos e Sementes</h3>
+                    <p>Quinoa, chia, linhaça, amaranto, gergelim e outros grãos nutritivos para uma dieta equilibrada.</p>
+                    <a href="https://wa.me/5517991234567?text=Olá!%20Tenho%20interesse%20em%20grãos%20e%20sementes%20da%20Naturaly."
+                       class="product-card__link" target="_blank" rel="noopener noreferrer">
+                        Ver grãos
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="product-card reveal" style="--delay:300ms">
+                <div class="product-card__visual product-card__visual--snacks">
+                    <div class="product-card__pattern"></div>
+                    <div class="product-card__emoji">🥜</div>
+                </div>
+                <div class="product-card__body">
+                    <h3>Snacks Saudáveis</h3>
+                    <p>Castanhas, frutas desidratadas, mix de sementes e barras naturais para lanchar sem culpa.</p>
+                    <a href="https://wa.me/5517991234567?text=Olá!%20Tenho%20interesse%20nos%20snacks%20saudáveis%20da%20Naturaly."
+                       class="product-card__link" target="_blank" rel="noopener noreferrer">
+                        Ver snacks
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="products__footer reveal">
+            <p>Tem dúvidas sobre algum produto ou quer ver o catálogo completo?</p>
+            <a href="https://wa.me/5517991234567?text=Olá!%20Gostaria%20de%20ver%20o%20catálogo%20completo%20da%20Naturaly."
+               class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Consultar catálogo completo
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== TESTIMONIALS ===================== -->
+<section class="testimonials">
+    <div class="container">
+        <div class="section-header reveal">
+            <span class="tag">Depoimentos</span>
+            <h2 class="section-title">O que nossos clientes dizem</h2>
+        </div>
+        <div class="testimonials__grid">
+            <div class="tcard reveal" style="--delay:0ms">
+                <div class="tcard__stars">★★★★★</div>
+                <p class="tcard__text">"A Naturaly transformou minha cozinha! As especiarias são frescas e com um aroma incrível. Nunca mais voltei ao supermercado para comprar temperos."</p>
+                <div class="tcard__author">
+                    <div class="tcard__avatar" style="--bg:#2E7D52">MS</div>
+                    <div class="tcard__info">
+                        <strong>Maria Silva</strong>
+                        <span>São José do Rio Preto</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tcard reveal" style="--delay:150ms">
+                <div class="tcard__stars">★★★★★</div>
+                <p class="tcard__text">"Entrega rápida e produtos de excelente qualidade. Os grãos e sementes que peço aqui são muito superiores ao que encontrava em outros lugares."</p>
+                <div class="tcard__author">
+                    <div class="tcard__avatar" style="--bg:#1A5C3A">JP</div>
+                    <div class="tcard__info">
+                        <strong>João Pereira</strong>
+                        <span>São José do Rio Preto</span>
+                    </div>
+                </div>
+            </div>
+            <div class="tcard reveal" style="--delay:300ms">
+                <div class="tcard__stars">★★★★★</div>
+                <p class="tcard__text">"Finalmente encontrei produtos naturais de verdade aqui em São José! Atendimento incrível e os produtos chegam sempre muito bem embalados."</p>
+                <div class="tcard__author">
+                    <div class="tcard__avatar" style="--bg:#8B5E3C">AL</div>
+                    <div class="tcard__info">
+                        <strong>Ana Lima</strong>
+                        <span>São José do Rio Preto</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== DIFFERENTIALS ===================== -->
+<section id="diferenciais" class="differentials">
+    <div class="container">
+        <div class="differentials__layout">
+            <div class="differentials__left reveal">
+                <span class="tag">Por que nos escolher</span>
+                <h2 class="section-title">A Naturaly é<br>diferente</h2>
+                <p class="section-sub">Cada detalhe do nosso trabalho é pensado para oferecer a melhor experiência e os melhores produtos para você.</p>
+                <a href="https://wa.me/5517991234567?text=Olá!%20Gostaria%20de%20conhecer%20mais%20sobre%20a%20Naturaly."
+                   class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+                    Conheça a Naturaly
+                </a>
+                <div class="differentials__img-wrap">
+                    <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&auto=format&fit=crop&w=480&q=80"
+                         alt="Produtos naturais Naturaly"
+                         onerror="this.parentElement.style.background='linear-gradient(135deg,#1a5c3a,#4caf78)'">
+                </div>
+            </div>
+
+            <div class="differentials__right">
+                <div class="diff-item reveal" style="--delay:0ms">
+                    <div class="diff-item__icon diff-item__icon--green">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2c0 0-8 5-8 11a8 8 0 0 0 16 0c0-6-8-11-8-11z"/><path d="M12 22v-8"/></svg>
+                    </div>
+                    <div class="diff-item__body">
+                        <h3>Produtos Selecionados</h3>
+                        <p>Cada item do nosso catálogo é escolhido para garantir qualidade, pureza e frescor incomparáveis.</p>
+                    </div>
+                </div>
+                <div class="diff-item reveal" style="--delay:100ms">
+                    <div class="diff-item__icon diff-item__icon--gold">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                    </div>
+                    <div class="diff-item__body">
+                        <h3>Qualidade Garantida</h3>
+                        <p>Trabalhamos apenas com fornecedores certificados, com foco em produtos naturais e orgânicos.</p>
+                    </div>
+                </div>
+                <div class="diff-item reveal" style="--delay:200ms">
+                    <div class="diff-item__icon diff-item__icon--blue">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </div>
+                    <div class="diff-item__body">
+                        <h3>Atendimento Próximo</h3>
+                        <p>Nossa equipe está sempre disponível para orientar e ajudar você a escolher os melhores produtos.</p>
+                    </div>
+                </div>
+                <div class="diff-item reveal" style="--delay:300ms">
+                    <div class="diff-item__icon diff-item__icon--orange">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+                    </div>
+                    <div class="diff-item__body">
+                        <h3>Entrega Rápida</h3>
+                        <p>Entregamos em São José do Rio Preto com agilidade e cuidado para você receber seus produtos frescos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contato" class="contact">
+    <div class="container">
+        <div class="contact__grid">
+            <div class="contact__info reveal">
+                <span class="tag">Fale Conosco</span>
+                <h2 class="section-title">Estamos prontos<br>para te atender</h2>
+                <p>Entre em contato pelo WhatsApp para fazer seu pedido, tirar dúvidas ou conhecer nosso catálogo completo. Respondemos rapidinho!</p>
+                <div class="contact__channels">
+                    <a href="https://wa.me/5517991234567" target="_blank" rel="noopener noreferrer" class="channel channel--wa">
+                        <div class="channel__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </div>
+                        <div class="channel__body">
+                            <span>WhatsApp</span>
+                            <strong>(17) 9 9123-4567</strong>
+                        </div>
+                    </a>
+                    <a href="mailto:contato@naturaly.com.br" class="channel channel--email">
+                        <div class="channel__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div class="channel__body">
+                            <span>E-mail</span>
+                            <strong>contato@naturaly.com.br</strong>
+                        </div>
+                    </a>
+                    <div class="channel channel--loc">
+                        <div class="channel__icon">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div class="channel__body">
+                            <span>Localização</span>
+                            <strong>São José do Rio Preto — SP</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact__cta-box reveal reveal--right">
+                <div class="cta-box">
+                    <div class="cta-box__icon">
+                        <svg width="44" height="44" viewBox="0 0 24 24" fill="#25D366"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </div>
+                    <h3>Faça seu pedido agora</h3>
+                    <p>Atendemos de segunda a sábado. Resposta rápida garantida!</p>
+                    <div class="cta-box__hours">
+                        <div class="hour-row">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            Seg – Sex: 8h às 18h
+                        </div>
+                        <div class="hour-row">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            Sábado: 8h às 13h
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5517991234567?text=Olá!%20Quero%20fazer%20um%20pedido%20na%20Naturaly."
+                       class="btn btn--whatsapp btn--xl" target="_blank" rel="noopener noreferrer">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Iniciar conversa no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="final-cta">
+    <div class="final-cta__leaves" aria-hidden="true">
+        <svg class="leaf leaf--1" viewBox="0 0 80 120" fill="none"><path d="M40 10C40 10 10 30 10 60C10 84.853 23.147 100 40 110C56.853 100 70 84.853 70 60C70 30 40 10 40 10Z" fill="currentColor" opacity="0.15"/></svg>
+        <svg class="leaf leaf--2" viewBox="0 0 80 120" fill="none"><path d="M40 10C40 10 10 30 10 60C10 84.853 23.147 100 40 110C56.853 100 70 84.853 70 60C70 30 40 10 40 10Z" fill="currentColor" opacity="0.1"/></svg>
+        <svg class="leaf leaf--3" viewBox="0 0 80 120" fill="none"><path d="M40 10C40 10 10 30 10 60C10 84.853 23.147 100 40 110C56.853 100 70 84.853 70 60C70 30 40 10 40 10Z" fill="currentColor" opacity="0.12"/></svg>
+    </div>
+    <div class="container">
+        <div class="final-cta__content reveal">
+            <span class="tag tag--light">Comece hoje</span>
+            <h2>Cuide da sua saúde com<br>produtos naturais de verdade</h2>
+            <p>Dê o primeiro passo rumo a uma alimentação mais saudável e saborosa. Nossa equipe está pronta para te ajudar a escolher os produtos certos para você.</p>
+            <a href="https://wa.me/5517991234567?text=Olá!%20Quero%20começar%20a%20comprar%20produtos%20naturais%20na%20Naturaly!"
+               class="btn btn--white btn--xl" target="_blank" rel="noopener noreferrer">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="#2E7D52"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Quero comprar agora
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div class="footer__brand">
+                <a href="#inicio" class="logo logo--footer">
+                    <svg class="logo__icon" width="30" height="30" viewBox="0 0 34 34" fill="none">
+                        <path d="M17 4C17 4 7 11 7 20C7 25.523 11.477 30 17 30C22.523 30 27 25.523 27 20C27 11 17 4 17 4Z" fill="#fff" fill-opacity="0.15" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
+                        <line x1="17" y1="29" x2="17" y2="15" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+                        <path d="M17 23Q13 20 12 15" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.65"/>
+                        <path d="M17 18Q21 16 22 11" stroke="#fff" stroke-width="1.3" fill="none" stroke-linecap="round" opacity="0.65"/>
+                    </svg>
+                    <span class="logo__text">Naturaly</span>
+                </a>
+                <p>Produtos naturais selecionados para quem valoriza saúde, sabor e qualidade de vida.</p>
+                <div class="footer__social">
+                    <a href="#" aria-label="Instagram da Naturaly" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    </a>
+                    <a href="https://wa.me/5517991234567" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Naturaly" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Produtos</h4>
+                <ul>
+                    <li><a href="#produtos">Especiarias</a></li>
+                    <li><a href="#produtos">Produtos Naturais</a></li>
+                    <li><a href="#produtos">Grãos e Sementes</a></li>
+                    <li><a href="#produtos">Snacks Saudáveis</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__col">
+                <h4>Contato</h4>
+                <ul class="footer__contact-list">
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        São José do Rio Preto — SP
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13 19.79 19.79 0 0 1 1.61 4.38 2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.16 6.16l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.9 17z"/></svg>
+                        (17) 9 9123-4567
+                    </li>
+                    <li>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        contato@naturaly.com.br
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p>© 2024 Naturaly. Todos os direitos reservados.</p>
+            <p>São José do Rio Preto — SP</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===================== FLOATING WHATSAPP ===================== -->
+<a href="https://wa.me/5517991234567?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20conhecer%20os%20produtos%20Naturaly."
+   class="float-wa" id="floatWA" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+    <div class="float-wa__tooltip">Fale conosco!</div>
+    <div class="float-wa__ring"></div>
+    <div class="float-wa__btn">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </div>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
